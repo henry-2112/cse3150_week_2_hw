@@ -1,5 +1,5 @@
 #include <iostream>
-#include "/Users/henry2112/Desktop/cse3150/hw/week_2/include/greeting_utils.h"
+#include "greeting_utils.h"
 using std::cout;
 using std::string;
 using std::cin;
