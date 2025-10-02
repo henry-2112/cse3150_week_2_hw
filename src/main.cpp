@@ -13,6 +13,6 @@ int main(){
     string greeting = create_message(name);
     char* greeting_c_string = format_as_c_string(greeting);
     cout << greeting_c_string << endl;
-    delete greeting_c_string;
+    delete[] greeting_c_string;
     return 0;
 }
