@@ -8,7 +8,7 @@ using namespace greetingUtils;
 
 int main(){
     string name;
-    cout << "Enter name: ";
+    cout << "Enter name: " << endl;
     std::getline(cin, name);
     string greeting = create_message(name);
     char* greeting_c_string = format_as_c_string(greeting);
