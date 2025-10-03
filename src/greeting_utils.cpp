@@ -1,15 +1,18 @@
 #include <iostream>
-#include "/Users/henry2112/Desktop/cse3150/hw/week_2/include/greeting_utils.h"
+#include <string>
+#include <cstring>
+#include "greeting_utils.h"
 using std::cout;
 using std::string;
 using std::cin;
 using std::endl;
 
+
 namespace greetingUtils{
     string create_message(const std::string& name){
         string greeting;
 
-        greeting = "Hello, " + name;
+        greeting = "Hello, " + name + "!";
         return greeting;
     }
 
