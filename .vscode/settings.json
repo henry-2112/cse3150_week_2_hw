@@ -62,5 +62,7 @@
         "compare": "cpp",
         "concepts": "cpp",
         "algorithm": "cpp"
+        "new": "cpp",
+        "ostream": "cpp"
     }
 }
